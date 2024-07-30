@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 # Local Netlify folder
 .netlify
+=======
+node_modules/
+.netlify
+>>>>>>> 57766572c096e15d4bf331d515cf13e4c49834dc
