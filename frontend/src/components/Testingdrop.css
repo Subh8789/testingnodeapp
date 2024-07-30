@@ -1,0 +1,442 @@
+
+.soldTodropdown-details {
+    display: block
+}
+
+.soldTodropdown-details .soldto-account-details {
+    padding-right: 10px;
+    font-weight: 400;
+    display: inline-block
+}
+
+.soldTodropdown-details .soldtodropdown-dropdown-toggle {
+    cursor: pointer;
+    vertical-align: middle
+}
+
+.soldTodropdown-details .soldto-account-details a {
+    text-decoration: underline !important;
+    cursor: pointer
+}
+
+.soldTodropdown-details .mvp-icon-carat_down:before {
+    content: "\e907";
+    font-size: 15px;
+    color: #707070
+}
+
+.soldTodropdown-details .mvp-icon-close-icon:before {
+    content: "\e90C";
+    float: right;
+    font-size: 21px;
+    position: relative;
+    bottom: 30px;
+    color: #000
+}
+
+.soldTodropdown-details .table th {
+    text-align: left;
+    font-weight: 500
+}
+
+.soldTodropdown-details .table tr {
+    text-align: left;
+    background-color: #fff !important
+}
+
+.soldTodropdown-details .table td {
+    text-align: left
+}
+
+.soldTodropdown-details .soldto-details {
+    position: absolute;
+    width: 800px;
+    padding: 10px 15px;
+    text-transform: none;
+    border: 1px solid #d8d8d8;
+    top: 23px;
+    right: -70%;
+    z-index: 999;
+    background: #fff;
+    display: none
+}
+
+.soldTodropdown-details .soldto-details:before {
+    content: '';
+    display: inline-block;
+    width: 22%;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    top: -2px;
+    right: 16%
+}
+
+.soldTodropdown-details .soldto-details .disabled-soldTo {
+    pointer-events: none
+}
+
+.soldTodropdown-details .soldto-details .account-details {
+    padding: 5px 0;
+    font-weight: 800;
+    font-size: 20px
+}
+
+.soldTodropdown-details .soldto-details p.account-description {
+    padding-top: 15px;
+    padding-right: 25px;
+    font-weight: 400;
+    text-align: justify;
+    font-size: 15px;
+    margin-bottom: 5px
+}
+
+.soldTodropdown-details .soldto-details .manage-cx-ordering-accounts .manage-my-order-accounts {
+    left: 54%;
+    position: relative;
+    color: #0071b3 !important;
+    margin-top: 5px;
+    margin-left: 0;
+    font-weight: 700 !important
+}
+
+.soldTodropdown-details .soldto-details button.close {
+    outline: 0
+}
+
+.soldTodropdown-details .soldto-details button.close:focus {
+    background: transparent
+}
+
+.soldTodropdown-details .soldto-details button.close:hover {
+    background: transparent
+}
+
+.soldTodropdown-details .soldto-details .soldto-table-scroll-y {
+    display: block
+}
+
+.soldTodropdown-details .soldto-details .soldto-acc-scrollbar {
+    position: relative;
+    height: 200px;
+    margin-bottom: 5px;
+    overflow: auto
+}
+
+.soldTodropdown-details .soldto-details .btn.btn-secondary.soldto-proceed {
+    position: relative;
+    float: right;
+    border-radius: 0;
+    border: 2px solid;
+    right: 0;
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    background-color: #0071b3;
+    border-color: #0071b3;
+    padding: 6px 0;
+    box-shadow: none;
+    outline: none !important;
+    font-size: 1rem
+}
+
+.soldTodropdown-details .soldto-details .btn.btn-secondary.soldto-proceed[disabled="disabled"] {
+    pointer-events: none;
+    cursor: not-allowed;
+    background-color: gray;
+    border-color: gray;
+    border: 2px solid gray
+}
+
+.soldTodropdown-details .soldto-details .btn.btn-secondary.soldto-proceed:hover {
+    background-color: #00629b;
+    border-color: #00629b
+}
+
+.soldTodropdown-details .soldto-details .btn.btn-outline-primary.soldto-close {
+    position: relative;
+    border-radius: 0;
+    width: 100px;
+    height: 40px;
+    padding: 6px;
+    left: 73%;
+    float: left;
+    outline: none !important;
+    cursor: pointer;
+    border: 2px solid
+}
+
+.soldTodropdown-details .soldto-details .btn.btn-outline-primary.soldto-close:hover {
+    background: transparent;
+    border: 2px solid #00629b
+}
+
+.soldTodropdown-details .soldto-details .btn.btn-outline-primary.soldto-close a {
+    color: #0071b3;
+    font-weight: 800;
+    cursor: pointer
+}
+
+.soldTodropdown-details .soldto-details input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+    width: 25px;
+    height: 15px;
+    transform: translateY(1px)
+}
+
+.soldTodropdown-details .soldto-details input[type="radio"]:checked:after {
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    top: 0;
+    left: 3px;
+    position: absolute;
+    background-color: #0071b3;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    box-shadow: 0 0 0 1px #a0a0a0;
+    border: 2px solid #fff !important
+}
+
+.soldTodropdown-details .soldto-details .accountno-sorting {
+    min-width: 123px
+}
+
+.soldTodropdown-details .soldto-details .accountno-sorting span.mvp-icon-carat_up {
+    position: relative;
+    font-size: 9px;
+    top: -4px
+}
+
+.soldTodropdown-details .soldto-details .accountno-sorting span.mvp-icon-carat_up:before {
+    font-size: 13px;
+    color: #fff
+}
+
+.soldTodropdown-details .soldto-details .accountno-sorting span.mvp-icon-carat_down {
+    position: relative;
+    font-size: 9px;
+    top: 4px;
+    right: 16px
+}
+
+.soldTodropdown-details .soldto-details .accountno-sorting span.mvp-icon-carat_down:before {
+    font-size: 13px;
+    color: #fff
+}
+
+.soldTodropdown-details .soldto-details .accountname-sorting {
+    min-width: 165px
+}
+
+.soldTodropdown-details .soldto-details .accountname-sorting .mvp-icon-carat_up {
+    position: relative;
+    font-size: 9px;
+    top: 0
+}
+
+.soldTodropdown-details .soldto-details .accountname-sorting span.mvp-icon-carat_up:before {
+    font-size: 13px;
+    top: -4px;
+    position: relative;
+    color: #fff
+}
+
+.soldTodropdown-details .soldto-details .accountname-sorting span.mvp-icon-carat_down {
+    position: relative;
+    font-size: 9px;
+    top: 4px;
+    right: 16px
+}
+
+.soldTodropdown-details .soldto-details .accountname-sorting span.mvp-icon-carat_down:before {
+    font-size: 13px;
+    color: #fff
+}
+
+.soldTodropdown-details .soldto-details .cx-city-selector {
+    min-width: 122px
+}
+
+.soldTodropdown-details .soldto-details .cx-city-selector .mvp-icon-carat_up {
+    position: relative;
+    font-size: 9px;
+    top: 0
+}
+
+.soldTodropdown-details .soldto-details .cx-city-selector span.mvp-icon-carat_up:before {
+    font-size: 13px;
+    top: -4px;
+    position: relative;
+    color: #fff
+}
+
+.soldTodropdown-details .soldto-details .cx-city-selector span.mvp-icon-carat_down {
+    position: relative;
+    font-size: 9px;
+    top: 4px;
+    right: 16px
+}
+
+.soldTodropdown-details .soldto-details .cx-city-selector span.mvp-icon-carat_down:before {
+    font-size: 13px;
+    color: #fff
+}
+
+.soldTodropdown-details .soldto-details .cx-zip-code {
+    min-width: 165px
+}
+
+.soldTodropdown-details .soldto-details .cx-zip-code .mvp-icon-carat_up {
+    position: relative;
+    font-size: 9px;
+    top: 0
+}
+
+.soldTodropdown-details .soldto-details .cx-zip-code span.mvp-icon-carat_up:before {
+    font-size: 13px;
+    top: -4px;
+    position: relative;
+    color: #fff
+}
+
+.soldTodropdown-details .soldto-details .cx-zip-code span.mvp-icon-carat_down {
+    position: relative;
+    font-size: 9px;
+    top: 4px;
+    right: 16px
+}
+
+.soldTodropdown-details .soldto-details .cx-zip-code span.mvp-icon-carat_down:before {
+    font-size: 13px;
+    color: #fff
+}
+
+.soldtodropdown-list {
+    display: none
+}
+
+.soldtodropdown-list .soldtoaccount-listing {
+    position: fixed;
+    width: 111%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    display: inline-block;
+    top: 0;
+    z-index: 999;
+    height: 100%;
+    background: #3c3c3c
+}
+
+.soldtodropdown-list .soldtoaccount-listing .soldto-accountselection {
+    position: relative;
+    list-style: none;
+    float: left;
+    z-index: 1;
+    right: 1px;
+    bottom: 0;
+    width: 90%
+}
+
+.soldtodropdown-list .soldtoaccount-listing .soldto-accountselection ul.soldto-navigation-list {
+    list-style: none;
+    position: relative;
+    width: 100%;
+    float: inherit;
+    left: 0;
+    text-align: center;
+    padding: 0
+}
+
+.soldtodropdown-list .soldtoaccount-listing .soldto-accountselection ul.soldto-navigation-list li {
+    background: #535353;
+    margin-bottom: 5px;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    font-size: 15px;
+    display: block
+}
+
+.soldtodropdown-list .soldtoaccount-listing .soldto-accountselection ul.soldto-navigation-list li.selected-mobile-soldto {
+    background: #00629b
+}
+
+.soldtodropdown-list .soldtoaccount-listing .soldto-accountselection button.mobile-close {
+    width: 100%;
+    position: relative;
+    padding: 0;
+    border: 0;
+    background: 0
+}
+
+.soldtodropdown-list li.account-selection {
+    background: #707070
+}
+
+@media(max-width: 576px) {
+    .soldtodropdown-list {
+        display:block
+    }
+
+    .soldtodropdown-list .mvp-icon-close-icon:before {
+        height: 40px;
+        content: "\e90C";
+        float: right;
+        font-size: 21px;
+        position: relative;
+        bottom: 30px;
+        width: 100%;
+        top: 0;
+        border: 0;
+        color: white;
+        padding: 8px;
+        background: #0071b3
+    }
+
+    .soldtodropdown-list .soldto-account-list {
+        font-weight: 700;
+        font-size: 14px
+    }
+
+    .soldTodropdown-details {
+        display: none
+    }
+
+    .soldtoaccount-listing .soldto-accountselection .soldto-table-scroll-y {
+        display: block
+    }
+
+    .soldtoaccount-listing .soldto-accountselection .soldto-table-scroll-y.soldto-acc-mobile-scrollbar {
+        position: relative;
+        height: 94vh;
+        margin-bottom: 5px;
+        overflow: auto
+    }
+}
+
+@media(min-width: 768px) and (max-width:1024px) {
+    .soldTodropdown-details .btn.btn-outline-primary.soldto-close {
+        left:71% !important
+    }
+}
+
+@media(max-width: 820px) {
+    .soldTodropdown-details .soldto-details {
+        width:740px;
+        right: 26px;
+        position: fixed
+    }
+
+    .soldTodropdown-details .soldto-details:before {
+        width: 23%;
+        right: 25%
+    }
+
+    .soldTodropdown-details .soldto-details .manage-my-order-accounts {
+        left: 51%
+    }
+}

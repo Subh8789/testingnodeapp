@@ -1,0 +1,343 @@
+.BEAMHK-Product{
+    background-color: rgb(245,245,245);
+}
+  
+  .top-beamhk {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; /* Adjust padding as needed */
+  }
+  
+  .products-title-info {
+    flex: 1;
+    color: rgb(48,48,48);
+    /*font-family: HoneywellSans-Medium; */
+  }
+  
+  .print-section {
+   /* font-family: HoneywellSans-Bold; */
+    font-size: 14px;
+    color: rgb(0, 113, 179);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 10px; /* Space between the print options */
+  }
+
+  .print-icon-1, .print-icon-2{
+    width: 24px;
+    height: auto;
+    
+  }
+
+  .print-W, .print-WO{
+    color: rgb(0, 113, 179);
+    font-size: 13px;
+    text-transform: none;
+ 
+  }
+  
+  .middle-beamhk {
+    display: flex;
+    align-items: flex-start; /* Align items at the top */
+  }
+  
+  .image-side {
+    flex: 1;
+    max-width: 500px; 
+    padding-left: 40px;
+  }
+
+  .images{
+    max-width: 500px;
+    min-height: 350px;
+    background-color: white;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+  }
+  
+  .beamhk-image-1 {
+    width: 65%; /* Makes the image responsive */
+    height: auto; 
+    margin-left: 10px;
+    
+  }
+
+  .beamhk-image-2{
+    width: 60px; /* Makes the image responsive */
+    height: 60px; 
+    cursor: pointer;
+    border: 1px solid rgb(0, 113, 179);
+    margin-top: 30px;
+    margin-left: 10px;
+
+  }
+
+  .add-to-cart-section{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .save-icon-box{
+    height: 30px;
+  }
+
+  .save-icon{
+    border: 1px solid black;
+    width: 24px;
+    height: auto;
+    padding: 8px;
+  }
+
+  .add-to-cart-button{
+    cursor: pointer; 
+    font-size: 14px; 
+    font-weight: 700; 
+    justify-content: center; 
+    text-align: center; 
+    text-transform: uppercase; 
+    word-break: break-word;  
+    width: 314px; 
+    height: 40px; 
+    background-color: rgb(0, 123, 194); 
+  /*  font-family: HoneywellSans-Bold;*/
+    color: rgb(0, 123, 194);
+    margin-top: 10px;
+  }
+
+  .add-to-cart-link{
+    color: white;
+    text-align: center;
+  }
+
+  .compare-checkbox-section{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+  }
+
+  .compare-checkbox {
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(0, 123, 194);
+  }
+  
+  .product-info-side {
+    flex: 2;
+    padding-left: 20px;
+  }
+  
+  .product-navbar {
+    background-color: white;
+    height: 60px;
+    text-align: center;
+    justify-content: center;
+    max-width: 715px;
+  }
+  
+  .product-nav-items {
+    color: black;
+    list-style-type: none;
+    padding: 10px;
+    padding-top: 30px;
+  }
+  
+  .product-nav-items li {
+    display: inline-block;
+    margin-right: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    position: relative;
+  }
+
+  .product-nav-items li.active {
+   /* font-family: HoneywellSans-Bold; */
+  }
+/**/
+  .product-nav-items li.active:hover {
+    /*
+    content: '';
+    display: block;
+    width: 120%; 
+    height: 2px;
+    background-color: rgb(0, 123, 194);
+    position: absolute;
+    bottom: -15px; /* Adjust the distance from the word 
+    margin-left: 30px;
+    transform: translateX(-50%);
+    **/
+  }
+  
+  .product-content {
+    background-color: white;
+    padding: 20px;
+    border-top: 1px solid #ccc; /* Debugging aid */
+    min-height: 200px; /* Ensure the content box is tall enough */
+    max-width: 675px;
+
+  }
+  
+  .product-overview, .product-specifications, .product-resources, .product-training, .product-replacement-products {
+    display: block;
+  }
+
+  .product-desc-title{
+   /* font-family: HoneywellSans-Medium; */
+    margin: 10px 0;
+    font-size: 20px;
+    color: black;
+  }
+
+  .product-desc-info{
+   /* font-family: HoneywellSans-Medium; */
+    margin: 10px 0;
+    font-size: 15px;
+    color: rgb(57, 57, 57);
+    line-height: 1.3rem;
+  }
+
+  .feats-and-benefits-title{
+  /*  font-family: HoneywellSans-Bold; */
+    font-size: 15px;
+    color: black;
+    margin-bottom: 40px;
+  }
+
+.second-level {
+  display: flex;
+  justify-content: space-between;
+  border-top-color: rgb(208,208,208);
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+
+.second-level p {
+  padding-top: 20px;
+ /* font-family: HoneywellSans-Bold; */
+  flex: 1; 
+  margin: 0px; 
+  font-size: 16px;
+
+}
+
+.third-level{
+  display: flex;
+  justify-content: space-between;
+}
+
+.third-level p{
+ /* font-family: HoneywellSans-Bold; */
+  flex: 1; 
+  margin: 0px; 
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.crossed-line-price{
+  text-decoration: line-through;
+}
+
+.discount-text{
+  color: rgb(55, 53, 53);
+  font-size: 10px;
+ /* font-family: HoneywellSans-Medium; */
+  display: block;
+  margin-top: 3px;
+}
+
+.quantity-box {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.quantity-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.fourth-level{
+  padding: 10px;
+}
+
+.success-icon{
+  width: 24px;
+  height: auto;
+}
+
+.amount-available-text{
+  font-size: 10px;
+ /* font-family: HoneywellSans-Bold; */
+}
+
+.product-availability-text{
+  padding-right: 100px;
+  font-size: 10px;
+ /* font-family: HoneywellSans-Bold; */
+  color: rgb(232,55,41);
+}
+
+/*Specifications Tab*/
+
+.product-specifications table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-specifications td {
+  padding: 15px;
+}
+
+.product-specifications tr:nth-child(even) {
+  background-color: rgb(245,245,245);
+}
+
+.specifications-table{
+  font-size: 12px;
+}
+
+.table-headers{
+ /* font-family: HoneywellSans-Medium; */
+}
+
+/*Resources Tab*/
+.resources-table {
+  font-size: 12px;
+  width: 100%;
+  border-collapse: collapse;
+}
+.product-resources td {
+  padding: 15px;
+}
+
+.resources-table-headers {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.product-resources tr:nth-child(even) {
+  background-color: rgb(245,245,245);
+}
+
+.resources-table{
+  font-size: 12px;
+}
+
+.resources-table-headers{
+ /* font-family: HoneywellSans-Medium; */
+}
+
+.download-link{
+  color: rgb(0, 123, 194);
+
+}
+  

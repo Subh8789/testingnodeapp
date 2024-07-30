@@ -1,0 +1,139 @@
+
+.card {
+    position: absolute;
+    background-color: white;
+    padding: 10px 0;
+    margin-top: 5px;
+    min-width: 280px;
+    z-index: 5000;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 10px;
+    left:70%;
+    color: #333!important;
+}
+
+.card-header, .card-footer {
+    text-align: center;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.list-item {
+   list-style-type: none;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.list-item a {
+    text-decoration: none;
+    
+}
+
+.list-item .person-icon, .list-item .document-icon {
+    margin-right: 5px;
+}
+.list-item span {
+    margin-right: 10px; 
+}
+.person-icon::before {
+    content: "\1F464"; 
+}
+.document-icon::before {
+    content: "\1F4C4"; 
+}
+
+.btn-signin{
+    border-color: #0071b3 !important;
+    border: 1px solid #0071b3;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 4px;
+
+}
+.btn-signin a{
+    color: #0071b3 !important;
+}
+
+.btn-signin:hover{
+    background-color: #0071b3;
+    a{
+        color: white !important;
+    }
+}
+/*---------SoldToAccount info----------*/
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  } */
+  .soldToCard {
+    position: absolute;
+    background-color: white;
+    padding: 10px 0;
+    margin-top: 5px;
+    max-width: 620px;
+    z-index: 1000;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 10px;
+    left:45%;
+    color: #333!important;
+   
+}
+
+.soldToCard .card-body{
+
+  height: 200px;
+  overflow: auto;
+}
+  .account-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    position: relative;
+    height: 200px;
+    margin-bottom: 5px;
+    overflow: auto;
+  }
+  .account-table th, tr{
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+
+  }
+  .account-table td {
+    padding: 8px;
+    text-align: left;
+  }
+  .account-table th {
+    background-color: #333;
+    color: white;
+  }
+  .button-container {
+    text-align: right;
+    width: 60%;
+  }
+  .button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  .cancel-button {
+    background-color: #d3d3d3;
+  }
+  .proceed-button {
+    background-color: #4CAF50;
+    color: white;
+  }

@@ -1,0 +1,96 @@
+
+*{
+    font-family: sans-serif;
+}
+.soldToCard {
+    position: absolute;
+    background-color: white;
+    padding: 10px 0;
+    margin-top: 5px;
+    max-width: 620px;
+    z-index: 5000;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 10px;
+    left:45%;
+    color: #333!important;
+   
+}
+.soldtoheader{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+} 
+.card-header, .card-footer {
+    text-align: start;
+}
+.card-header h3{
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;  
+}
+.card-header p{
+    padding-right: 25px;
+    font-weight: 400;
+    text-align: justify;
+    font-size: 12px;
+    margin-bottom: 5px;
+    letter-spacing: 0.02px;
+}
+
+.soldToCard .card-body{
+
+  height: 200px;
+  overflow: auto;
+  padding:0;
+}
+  .account-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    position: relative;
+    height: 200px;
+    margin-bottom: 5px;
+    overflow: auto;
+  }
+  .account-table th, tr{
+    border-top: 1px solid #ddd !important;
+    padding: 8px;
+    text-align: left;
+
+  }
+  .account-table td {
+    padding: .75rem;
+    text-align: left;
+  }
+  .account-table th {
+    background-color: #333;
+    color: white;
+    padding: .75rem;
+  }
+  .button-container {
+    text-align: right;
+    width: 60%;
+    float: right;
+  }
+  .button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    
+    cursor: pointer;
+  }
+  .cancel-button {
+    background-color: white;
+    border: 1px solid #007bff;
+    color: #007bff;
+  }
+  .proceed-button {
+    background-color:#007bff;
+    color: white;
+    border: 1px solid #007bff;
+  }
+  .cancel-button:hover{
+   border: 1px solid #333;
+  }

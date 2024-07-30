@@ -1,0 +1,232 @@
+.product-section {
+  display: flex;
+  align-items: flex-start; /* Align items at the top */
+  font-size: 14px;
+  font-weight: 300;
+  padding-top: 10px;
+  width: 100%;
+}
+
+/*Filter Section*/
+
+.filter-section {
+  margin-left: 1.5em;
+  margin-right: 20px;
+  flex-basis: 20%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.filter-by-text {
+  color: rgb(48, 48, 48);
+  font-size: 16px;
+  font-weight: 800;
+ /* font-family: HoneywellSans-Extrabold; */
+  padding-bottom: 10px;
+  width: 150px;
+  margin-right: 5rem;
+  margin-bottom: 0.5rem;
+}
+
+.dropdown-container {
+  margin-bottom: 15px;
+  width: 222px; /* Adjusted width */
+  background-color: rgb(243, 243, 243);
+  border-top-color: transparent;
+  border-bottom-color: rgb(208, 208, 208);
+  border-right-color: rgb(208, 208, 208);
+  border-left-color: rgb(208, 208, 208);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 4px;
+
+}
+
+.dropdown-header {
+  background-color: rgb(243, 243, 243);
+  border: rgb(208, 208, 208);
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin-left: -0.5px;
+  width: 190px;
+  color: rgb(48, 48, 48);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.carat-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.dropdown-title {
+  font-weight: 700;
+/*  font-family: HoneywellSans-Medium; */
+  text-transform: uppercase;
+  width: 15rem;
+}
+
+.clear-button{
+ /* font-family: HoneywellSans-Book; */
+  text-transform: capitalize;
+  margin-right: -3px;
+}
+
+.checkbox-container {
+  padding: 16px;
+  display: none;
+}
+
+.checkbox-container.open {
+  display: block;
+}
+
+.checkbox-item {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  width: 19px;
+  height: 19px;
+  margin-right: 10px;
+}
+
+.checkbox-label {
+  font-size: 14px;
+}
+
+
+/*Product list section*/
+
+.product-list-section {
+  flex-grow: 1; /* Takes up the remaining space */
+  padding: 16px;
+}
+
+.number-text{
+  border-bottom-color: rgb(155,155,155);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+ /* font-family: HoneywellSans-Book; */
+  font-size: 18px;
+  font-weight: 300;
+  padding-left: 18px;
+  padding-right: 18px;
+
+  
+}
+
+.num-of-products-text{
+/*  font-family: HoneywellSans-Extrabold; */
+  font-size: 16px;
+  color: rgb(33, 37, 41);
+  font-weight: 800;
+}
+
+.products-item {
+  display: flex;
+  align-items: flex-start; /* Align items to the top */
+  margin-top: 16px;
+  width: 100%;
+  height: 12rem;
+  border-bottom-color: rgb(208,208,208);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  height: 160px;
+}
+
+.part-number-img{
+  border-color: rgb(217,217,217);
+  border-width: 1px;
+  border-style: solid;
+  background: linear-gradient(rgb(228, 228, 228) 0px, rgb(248, 248, 248) 100%); 
+  text-align: center;
+  margin-right: 80rem;
+  width: 130px;
+  color: rgb(33, 37, 41);
+ /* font-family: HoneywellSans-Book; */
+  font-size: 14px; 
+  font-weight: 300;
+}
+
+.part-number{
+  font-size: 22px; 
+  margin-top: 1rem;
+}
+
+.pn-title{
+  font-size: 16px;
+}
+
+.part-item-description {
+  margin-left: -77rem; /* Move this element to the left */
+  margin-top: -16.5px;
+  flex-grow: 1; /* Takes up the remaining space */
+  width: 90px;
+  color:rgb(33, 37, 41);
+ /* font-family: HoneywellSans-Book; */
+  font-weight: 300;
+  
+}
+
+.details-link {
+ /* font-family: HoneywellSans-Bold; */
+  color: rgb(0, 113, 179);
+  text-decoration: none; /* Remove underline */
+  font-size: 14px;
+}
+
+.desc-1, .desc-2, .desc-3{
+  width: 300px;
+
+}
+
+.desc-3{
+  margin-top: -5px;
+}
+
+.desc-2{
+  font-size: 22px;
+  /*font-family: HoneywellSans-Bold; */
+  color: rgb(0, 113, 179);
+  margin-top: -0.5px;
+}
+
+.details-button{
+  text-transform: uppercase;
+  width: 300px;
+
+}
+
+
+
+.load-button{
+  cursor: pointer; 
+  font-size: 14px; 
+  font-weight: 700; 
+  justify-content: center; 
+  text-align: center; 
+  text-transform: uppercase; 
+  word-break: break-word;  
+  width: 232px; 
+  height: 60px; 
+  border-width: 2px; 
+  border-color: rgb(0, 123, 194); 
+  border-style: solid; 
+  border-radius: 4px; 
+/*  font-family: HoneywellSans-Bold; */
+  color: rgb(0, 123, 194);
+  margin-top: 30px;
+  margin-left: 300px;
+}
+
+.load-more-link{
+  text-align: center;
+  padding-top: 8px;
+}

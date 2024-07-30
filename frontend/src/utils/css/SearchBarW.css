@@ -1,0 +1,118 @@
+
+.search-page{
+  padding: 20px 20px 45px 0px;
+  border-top: 1px solid #dcdcdc;
+  z-index: 4000;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 98.5%;
+
+}
+
+.text-1{
+  text-align: left;
+  color: #303030;
+  margin-top: 5px;
+  font-size: 11px;
+/*  font-family: HoneywellSans-Medium; */
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  color: rgb(100, 100, 100);
+  margin: 0;
+}
+
+.form-control {
+  color: rgb(100, 100, 100);
+  width: 72vw;
+  height: 56px;
+  padding: 0 30px 0 15px;
+  margin-left: 0rem;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border-width: 1px;
+  border-color: rgb(220, 220, 220);
+  border-style: solid;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  padding: 0px 30px 0px 15px;
+}
+
+.search-box{
+  margin-top: -0.5rem;
+}
+
+
+/*Drop Down*/
+
+.searchby-dropdown {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.select-picker {
+  color: rgb(100, 100, 100);
+  cursor: pointer;
+  font-size: 18px;
+  padding: 15px 30px 10px 15px; /* top-right-bottom-left */
+  height: 56px;
+  border-width: 1px;
+  border-color: rgb(220, 220, 220);
+  border-style: solid;
+  border-radius: 4px;
+  width: 22vw;
+  appearance: none; 
+  background-color: white;
+  background-image: url('../icons/caratdown.svg');
+  background-repeat: no-repeat;
+  background-position: right 10px center; 
+  background-size: 20px 20px;
+}
+
+.select-picker:focus {
+  outline: none;
+  border-color: rgb(110, 129, 236);
+}
+
+.select-picker::-ms-expand {
+  display: none;
+}
+
+.close-icon{
+  fill: white;
+width: 15px;
+margin-right: 1.75rem;
+cursor: pointer;
+}
+
+.search-btn{
+  position: absolute;
+    top: 36%;
+    border: 1px solid blue;  
+    position: absolute; 
+    font-size: 22px !important;
+    outline: 0;
+    background: #0071b3;
+    margin: 4px;
+    border-radius: 3px;
+    color: #fff;
+    width: auto;
+    padding: 7px 15px 7px !important;
+    transform: scaleX(-1);
+    right: 3.5%
+}
+
+.search-icon{
+  rotate: 90deg;
+}

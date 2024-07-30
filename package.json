@@ -1,0 +1,13 @@
+{
+    "name": "my-app",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "netlify dev",
+        "build": "npm --prefix frontend install --f && npm --prefix frontend run build"
+    },
+    "dependencies": {
+        "concurrently": "^6.0.0",
+        "netlify-cli": "^17.33.4",
+        "node-fetch": "^3.3.2"
+    }
+}

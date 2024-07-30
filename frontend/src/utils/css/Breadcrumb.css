@@ -1,0 +1,45 @@
+.Breadcrumb {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #F7F7F7;
+    border-top-style: solid;
+    border-top-width: .01cap;
+    border-color: rgb(216,216,216);
+}
+
+.breadcrumb-list {
+    display: flex;
+    align-items: center;
+    list-style-type: none; 
+    padding: 10px; 
+    margin: 0; 
+    gap: 20px; 
+}
+
+.breadcrumb-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.home-icon {
+    height: 20px;
+    width: 23px;
+
+}
+
+.carat-right {
+    height: 10px;
+    width: 10px;
+    margin-bottom: 3px;
+}
+
+.top-text {
+    color: rgb(0, 113, 179);
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0; 
+    white-space: nowrap; 
+   
+}
